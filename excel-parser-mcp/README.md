@@ -37,6 +37,19 @@ Add to `.claude/settings.json`:
 }
 ```
 
+### Configure in your object .mcp.json
+
+```json
+{
+  "mcpServers": {
+    "excel-parser": {
+      "command": "python",
+      "args": ["你本地的路径/excel-parser-mcp/server.py"]
+    }
+  }
+}
+```
+
 Restart Claude Code. You now have three new tools available.
 
 ## Tools

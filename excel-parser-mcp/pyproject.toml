@@ -1,0 +1,13 @@
+[project]
+name = "excel-parser-mcp"
+version = "1.0.0"
+description = "Universal Excel parsing MCP Server for AI agents — read any .xlsx/.xls file into LLM-friendly text"
+requires-python = ">=3.12"
+dependencies = [
+    "openpyxl>=3.1.0",
+    "xlrd>=2.0.0",
+    "mcp>=1.0.0",
+]
+
+[project.scripts]
+excel-parser-mcp = "mcp_server:main"

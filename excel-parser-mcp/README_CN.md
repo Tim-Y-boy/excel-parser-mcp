@@ -43,7 +43,7 @@ pip install -e .
 
 ### 在项目根目录创建 .mcp.json
 
-
+```json
 {
   "mcpServers": {
     "excel-parser": {
@@ -52,6 +52,7 @@ pip install -e .
     }
   }
 }
+```
 
 > **注意**：MCP Server 是本地运行的，`args` 需要指向你自己机器上 clone 的路径。
 

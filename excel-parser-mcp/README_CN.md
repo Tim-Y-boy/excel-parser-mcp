@@ -41,6 +41,18 @@ pip install -e .
 
 重启 Claude Code，即可使用三个新工具。
 
+### 在项目根目录创建 .mcp.json
+
+
+{
+  "mcpServers": {
+    "excel-parser": {
+      "command": "python",
+      "args": ["你本地的路径/excel-parser-mcp/server.py"]
+    }
+  }
+}
+
 > **注意**：MCP Server 是本地运行的，`args` 需要指向你自己机器上 clone 的路径。
 
 ## 工具说明
